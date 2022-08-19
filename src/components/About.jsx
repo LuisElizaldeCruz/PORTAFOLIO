@@ -3,7 +3,7 @@ import "../assets/css/About.css"
 
 const About = () => {
     return (
-        <section class="more-about">
+        <section className="more-about">
             <h2>Mas acerca de mi</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
