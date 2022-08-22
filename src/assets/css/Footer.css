@@ -1,0 +1,13 @@
+.footer{
+    background-color: rgb(39, 59, 145);
+    height: 100px;
+    width: auto;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.icon-social-network{
+    height: auto;
+    width: auto;
+    color: white;
+}

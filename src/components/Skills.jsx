@@ -8,7 +8,6 @@ import gitico from "../assets/icons/icons8-git.svg"
 
 
 const Skills=()=>{
-    const  dirIco = "../assets/icons/icons8-";
     return(
         <section className="skills" id="skills">
           <h2 className="skill-header">Mis habilidades</h2>

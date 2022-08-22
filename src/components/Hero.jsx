@@ -6,7 +6,6 @@ const Hero = () => {
   return (
     //Hero Section
     <section className="hero" id="about">
-      <img src={imgHero} alt="jane-doe" loading="lazy" className="hero-img" />
       <div className="bio animate__animated animate__shakeX">
         <h2 className="bio-title">Acerca de mi</h2>
         <p className="bio-text">
@@ -16,6 +15,7 @@ const Hero = () => {
           repudiandae quos!
         </p>
       </div>
+      <img src={imgHero} alt="jane-doe" loading="lazy" className="hero-img" />
     </section>
   );
 }
