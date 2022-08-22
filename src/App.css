@@ -52,7 +52,7 @@ body {
     gap: 0;
   }
 
-  .hero img {
+  .hero-img {
     height: 37.5rem;
     width: 30rem;
   }
@@ -75,9 +75,9 @@ body {
     text-align: justify;
   }
 
-  .skills-set {
+  /* .skills-set {
     flex-wrap: wrap;
-  }
+  } */
 
   .icon {
     width: 5.875rem;
@@ -107,7 +107,7 @@ body {
     bottom: 40%;
   }
 
-  .hero img {
+  .hero-img {
     height: 37.5rem;
     width: 23rem;
   }

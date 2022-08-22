@@ -2,7 +2,8 @@
 
 /* -------------skills--------------- */
 .skills {
-    max-width: 90%;
+    /* max-width: 90%; */
+    width: auto;
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
@@ -13,8 +14,10 @@
   }
 
   .skills-set{
+    width: auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   .icon:hover{
