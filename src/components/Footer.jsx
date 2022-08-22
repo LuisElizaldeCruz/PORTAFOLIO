@@ -8,8 +8,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export const Footer = () => {
     return (
         <footer className="footer">
-            <p>Luis Elizalde</p>
-            <div className="iconos-continer">
+            <p className="name-footer">Luis Elizalde</p>
+            <div className="icons-container">
                 <SocialNetworkIcon
                     url="https://www.github.com"
                     icono={<GitHubIcon fontSize="large"
