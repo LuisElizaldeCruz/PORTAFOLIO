@@ -1,0 +1,12 @@
+@import url("./Variables.css");
+
+.contacto{
+    margin-top: 33px;
+}
+
+.form-title{
+    width: auto;
+    text-align: center;
+    
+    font-size: 24px;
+}

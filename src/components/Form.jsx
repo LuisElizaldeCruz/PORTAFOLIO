@@ -2,6 +2,7 @@ import React from "react";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { createTheme, ThemeProvider, } from '@mui/material/styles';
+import '../assets/css/Form.css';
 
 
 const themetxt = createTheme({
@@ -47,7 +48,7 @@ const themetxt = createTheme({
     },
 });
 
-const theme2 = createTheme({
+const themeTxtMultiLine = createTheme({
     components: {
         // Name of the component
         MuiTextField: {
@@ -77,8 +78,8 @@ const theme2 = createTheme({
 
 export const Form = () => {
     return (
-        <>
-            <h3 className="form-title">Contactame</h3>
+        <section className="contacto">
+            <h4 className="form-title">Contactame</h4>
             <Box
                 component="form"
                 sx={{
@@ -94,7 +95,7 @@ export const Form = () => {
                     <ThemeProvider theme={themetxt}>
                         <TextField
                             required
-                            id="outlined-required"
+                            id="nombre"
                             fullWidth
                             label="Nombre"
                             placeholder="Tu nombre"
@@ -103,7 +104,7 @@ export const Form = () => {
                         />
                         <TextField
                             required
-                            id="outlined-required"
+                            id="asunto"
                             fullWidth
                             label="Asunto"
                             placeholder="Asunto"
@@ -111,16 +112,16 @@ export const Form = () => {
                         />
                         <TextField
                             required
-                            id="outlined-required"
+                            id="correo"
                             fullWidth
                             label="correo"
                             placeholder="Tu correo"
                             margin="normal"
                         />
                     </ThemeProvider>
-                    <ThemeProvider theme={theme2}>
+                    <ThemeProvider theme={themeTxtMultiLine}>
                         <TextField
-                            id="outlined-multiline-static"
+                            id="mensaje"
                             required
                             label="tu mensaje"
                             placeholder="tu mensaje aqui"
@@ -134,6 +135,6 @@ export const Form = () => {
                 </div>
 
             </Box>
-        </>
+        </section >
     );
 };

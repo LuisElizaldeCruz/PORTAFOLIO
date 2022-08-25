@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/Footer.css"
+import "../assets/css/Footer.css";
 import { SocialNetworkIcon } from "./SocialNetworkIcons";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -11,12 +11,12 @@ export const Footer = () => {
             <p className="name-footer">Luis Elizalde</p>
             <div className="icons-container">
                 <SocialNetworkIcon
-                    url="https://www.github.com"
+                    url="https://github.com/LuisElizaldeCruz"
                     icono={<GitHubIcon fontSize="large"
                         color="#e3f2fd" />}
                 />
                 <SocialNetworkIcon
-                    url="https://www.linkdin.com"
+                    url="https://www.linkedin.com/in/luis-elizaldec/"
                     icono={<LinkedInIcon fontSize="large"
                         color="#e3f2fd" />}
                 />
