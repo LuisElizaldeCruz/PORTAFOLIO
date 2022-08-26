@@ -3,7 +3,10 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { createTheme, ThemeProvider, } from '@mui/material/styles';
 import '../assets/css/Form.css';
-
+import SendIcon from '@mui/icons-material/Send';
+import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
+import { purple } from '@mui/material/colors';
 
 const themetxt = createTheme({
     components: {
@@ -64,7 +67,7 @@ const themeTxtMultiLine = createTheme({
                         borderColor: '#273b91',
                         borderWidth: 2,
                     },
-                    '& .MuiOutlinedInput-root':{
+                    '& .MuiOutlinedInput-root': {
                         '&.Mui-focused fieldset': {
                             borderColor: 'red !important',
                         }
@@ -74,6 +77,15 @@ const themeTxtMultiLine = createTheme({
         },
     },
 });
+
+const ColorButton = styled(Button)(({ theme }) => ({
+    color: theme.palette.getContrastText(purple[500]),
+    backgroundColor: '#2c387e',
+    '&:hover': {
+        backgroundColor: '#4615b2',
+    },
+}));
+
 
 
 export const Form = () => {
@@ -133,7 +145,9 @@ export const Form = () => {
                         />
                     </ThemeProvider>
                 </div>
-
+                <ColorButton id="btn-send" variant="contained" endIcon={<SendIcon />}>
+                    enviar
+                </ColorButton>
             </Box>
         </section >
     );
