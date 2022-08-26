@@ -15,18 +15,15 @@ const themetxt = createTheme({
             styleOverrides: {
                 // Name of the slot
                 root: {
-                    // Some CSS
-                    // border: '2px solid red',
-                    // borderRadius: '10px',
                     '& label.Mui-focused': {
-                        color: 'green',
+                        color: 'black',
                     },
                     '& input + fieldset': {
                         borderColor: '#273b91',
                         borderWidth: 2,
                     },
                     '& input:focus + fieldset': {
-                        borderColor: 'red !important', // override inline-style
+                        borderColor: '#834bff !important', // override inline-style
                     },
 
 
@@ -60,7 +57,7 @@ const themeTxtMultiLine = createTheme({
                 root: {
 
                     '& label.Mui-focused': {
-                        color: 'green',
+                        color: 'black',
                     },
 
                     '& fieldset': {
@@ -69,7 +66,7 @@ const themeTxtMultiLine = createTheme({
                     },
                     '& .MuiOutlinedInput-root': {
                         '&.Mui-focused fieldset': {
-                            borderColor: 'red !important',
+                            borderColor: '#834bff !important',
                         }
                     }
                 },
@@ -99,6 +96,8 @@ export const Form = () => {
                     maxWidth: '100%',
                     margin: '0 auto',
                     padding: '0 10px',
+                   // display: 'flex',
+                   // flexDirection: 'column',
                 }}
                 noValidate
                 autoComplete="off"
@@ -126,7 +125,7 @@ export const Form = () => {
                             required
                             id="correo"
                             fullWidth
-                            label="correo"
+                            label="Correo"
                             placeholder="Tu correo"
                             margin="normal"
                         />
@@ -135,7 +134,7 @@ export const Form = () => {
                         <TextField
                             id="mensaje"
                             required
-                            label="tu mensaje"
+                            label="Mensaje"
                             placeholder="tu mensaje aqui"
                             multiline
                             rows={4}
