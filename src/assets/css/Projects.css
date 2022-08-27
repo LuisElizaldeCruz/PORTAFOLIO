@@ -1,0 +1,7 @@
+@import url("./Variables.css");
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
