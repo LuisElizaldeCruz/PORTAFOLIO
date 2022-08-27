@@ -3,9 +3,9 @@ import Menu from "./components/Menu";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import {Footer} from "./components/Footer";
-import {Form} from "./components/Form";
-import Projects from "./components/Projects";
+import { Footer } from "./components/Footer";
+import { Form } from "./components/Form";
+import Project from "./components/Projects";
 
 
 function App() {
@@ -15,7 +15,13 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
+      <section className="projects">
+        <Project
+          img="expenseTracker"
+          alt="expenseTracker"
+          description="este es un proyecto de prueba"
+        />
+      </section>
       <Form />
       <Footer />
     </div>
