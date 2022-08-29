@@ -16,9 +16,14 @@ body {
 }
 
 /*css style project secition*/
-.projects{
+.projects:not(.title-projects){
   width: 100%;
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
+
 
 /*css style project secition end*/
 
