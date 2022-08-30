@@ -16,14 +16,24 @@ body {
 }
 
 /*css style project secition*/
-.projects:not(.title-projects){
+.projects {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
+.title-projects {
+  width: auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container-projects {
+  margin-top: 50px;
+}
 
 /*css style project secition end*/
 
@@ -63,7 +73,7 @@ body {
     /* margin-top: -4rem; */
     flex-direction: column;
     gap: 0;
-    
+
   }
 
   .hero-img {

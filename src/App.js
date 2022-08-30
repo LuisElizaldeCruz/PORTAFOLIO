@@ -15,18 +15,20 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <section className="projects">
-        <h3 className="title-projects">Projectos</h3>
-        <Project
-          img="expenseTracker"
-          alt="expenseTracker"
-          description="este es un proyecto de prueba"
-        />
-         <Project
-          img="expenseTracker"
-          alt="expenseTracker"
-          description="este es un proyecto de prueba"
-        />
+      <section className="container-projects">
+        <h4 className="title-projects">Proyectos</h4>
+        <div className="projects">
+          <Project
+            img="expenseTracker"
+            alt="expenseTracker"
+            description="este es un proyecto de prueba"
+          />
+          <Project
+            img="expenseTracker"
+            alt="expenseTracker"
+            description="este es un proyecto de prueba"
+          />
+        </div>
       </section>
       <Form />
       <Footer />
