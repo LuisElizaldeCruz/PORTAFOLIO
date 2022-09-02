@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/Hero.css";
 import imgHero from "../assets/images-projects/wfh_1.svg";
+import imgWave from "../assets/images-projects/wave.svg";
 
 const Hero = () => {
   return (
@@ -16,6 +17,7 @@ const Hero = () => {
         </p>
       </div>
       <img src={imgHero} alt="jane-doe" loading="lazy" className="hero-img" />
+      <img src={imgWave} alt="jane-doe" loading="lazy" className="hero-wave" />
     </section>
   );
 }

@@ -7,7 +7,7 @@ import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
-
+const nombre = document.querySelector('#nombre');
 const themetxt = createTheme({
     components: {
         // Name of the component
@@ -83,6 +83,15 @@ const ColorButton = styled(Button)(({ theme }) => ({
     },
 }));
 
+const mostrarDatos=()=>{
+    const nombre = document.querySelector('#nombre');
+    if(nombre.value !==  ""){
+        console.log(nombre.value);
+    }else{
+        
+        console.log("El campo esta vacio");
+    }
+}
 
 
 export const Form = () => {
@@ -144,7 +153,7 @@ export const Form = () => {
                         />
                     </ThemeProvider>
                 </div>
-                <ColorButton id="btn-send" variant="contained" endIcon={<SendIcon />}>
+                <ColorButton onClick={mostrarDatos} id="btn-send" variant="contained" endIcon={<SendIcon />}>
                     enviar
                 </ColorButton>
             </Box>

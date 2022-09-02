@@ -9,7 +9,7 @@ export default function Project({ img, alt, description, link = "#" }) {
         <div className="mascara">
           <h2>ejemplo</h2>
           <p className="description-text">{description}</p>
-          <a href="#none" class="link">Leer mas</a>
+          <a href="#none" className="link">Leer mas</a>
         </div>
       </div>
     </>

@@ -17,7 +17,7 @@ function App() {
       <Skills />
       <section className="container-projects">
         <h4 className="title-projects">Proyectos</h4>
-        <div className="projects">
+        <div className="projects" id="projects">
           <Project
             img="expenseTracker"
             alt="expenseTracker"
