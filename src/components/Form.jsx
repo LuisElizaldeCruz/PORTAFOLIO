@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { createTheme, ThemeProvider, } from '@mui/material/styles';
@@ -7,7 +7,8 @@ import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
-const nombre = document.querySelector('#nombre');
+
+
 const themetxt = createTheme({
     components: {
         // Name of the component
@@ -83,18 +84,32 @@ const ColorButton = styled(Button)(({ theme }) => ({
     },
 }));
 
-const mostrarDatos=()=>{
+const validarDatos2 = () => {
     const nombre = document.querySelector('#nombre');
-    if(nombre.value !==  ""){
+    if (nombre.value !== "") {
         console.log(nombre.value);
-    }else{
-        
-        console.log("El campo esta vacio");
+    } else {
+        /*
+                console.log("El campo esta vacio");
+                const colorCampo = themetxt.components.MuiTextField.styleOverrides.root["& input + fieldset"];
+                colorCampo.borderColor = "error"
+                */
     }
 }
 
 
+
 export const Form = () => {
+    const [datos, setDatos] = useState({});
+    const [titulo, setTitulo] = useState("");
+    const [leyenda, setLeyenda] = useState("");
+    const [errorTitulo, setErrorTitulo] = useState(false);
+    
+    const validarDatos = (e) => {
+        e.preventDefault();
+    }
+
+
     return (
         <section className="contacto">
             <h4 className="form-title">Contactame</h4>
@@ -105,15 +120,20 @@ export const Form = () => {
                     maxWidth: '100%',
                     margin: '0 auto',
                     padding: '0 10px',
-                   // display: 'flex',
-                   // flexDirection: 'column',
+                    // display: 'flex',
+                    // flexDirection: 'column',
                 }}
                 noValidate
                 autoComplete="off"
             >
                 <div className="form-container">
                     <ThemeProvider theme={themetxt}>
+
                         <TextField
+                            onChange={(e) => {
+                                setTitulo(e.target.value);
+                            }}
+                            error={false}
                             required
                             id="nombre"
                             fullWidth
@@ -153,7 +173,13 @@ export const Form = () => {
                         />
                     </ThemeProvider>
                 </div>
-                <ColorButton onClick={mostrarDatos} id="btn-send" variant="contained" endIcon={<SendIcon />}>
+                <ColorButton
+                    type="submit"
+                    onClick={validarDatos}
+                    id="btn-send"
+                    variant="contained"
+                    endIcon={<SendIcon />}
+                >
                     enviar
                 </ColorButton>
             </Box>
