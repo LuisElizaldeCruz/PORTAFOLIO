@@ -101,10 +101,10 @@ const validarDatos2 = () => {
 
 export const Form = () => {
     const [datos, setDatos] = useState({});
-    const [titulo, setTitulo] = useState("");
-    const [leyenda, setLeyenda] = useState("");
+    const [nombre, setNombre] = useState(null);
+    const [error, setError] = useState(false);
     const [errorTitulo, setErrorTitulo] = useState(false);
-    
+
     const validarDatos = (e) => {
         e.preventDefault();
     }
@@ -130,10 +130,14 @@ export const Form = () => {
                     <ThemeProvider theme={themetxt}>
 
                         <TextField
-                            onChange={(e) => {
-                                setTitulo(e.target.value);
+                            onBlur={(e) => {
+                                setNombre(e.target.value);
+                                console.log(nombre);
+                                console.log("se perdio el foco")
+                                nombre ? setError(false) : setError(true);
+                                //nombre ? console.log("elemento lleno") : console.log("elemento vacio");
                             }}
-                            error={false}
+                            error={(nombre === "") ? true : false}
                             required
                             id="nombre"
                             fullWidth
