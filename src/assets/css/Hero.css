@@ -9,9 +9,11 @@
     /* max-width: 68.75rem; */
     width: auto;
     margin: auto;
-    background-color: rgb(66, 66, 177);
+    /* background-color: rgb(66, 66, 177); */
     height: 100vh;
     position: relative;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  
   }
 
   /* .hero-img {
@@ -28,6 +30,7 @@
     position: absolute;
     bottom: 0;
     /* width: 100%; */
+    
   }
   .bio {
     width: 25rem;
