@@ -102,11 +102,25 @@ const validarDatos2 = () => {
 export const Form = () => {
     const [datos, setDatos] = useState({});
     const [nombre, setNombre] = useState(null);
+    const [asunto, setAsunto] = useState(null);
+    const [correo, setCorreo] = useState(null);
+    const [mensaje, setMensaje] = useState(null);
     const [error, setError] = useState(false);
-    const [errorTitulo, setErrorTitulo] = useState(false);
 
-    const validarDatos = (e) => {
+    const manejarMensaje = (e) => {
         e.preventDefault();
+        console.log("se presiono el boton")
+        if ((nombre && asunto && correo && mensaje) !== null) {
+            if ((nombre && asunto && correo && mensaje) !== "") {
+                console.log("campos llenos");
+            }
+            else {
+                console.log("campos vacios");
+            }
+        }
+        else{
+            console.log("campos vacios");
+        }
     }
 
 
@@ -147,6 +161,10 @@ export const Form = () => {
 
                         />
                         <TextField
+                            onBlur={(e) => {
+                                setAsunto(e.target.value);
+                            }}
+                            error={(asunto === "") ? true : false}
                             required
                             id="asunto"
                             fullWidth
@@ -155,6 +173,10 @@ export const Form = () => {
                             margin="normal"
                         />
                         <TextField
+                            onBlur={(e) => {
+                                setCorreo(e.target.value);
+                            }}
+                            error={(correo === "") ? true : false}
                             required
                             id="correo"
                             fullWidth
@@ -165,6 +187,10 @@ export const Form = () => {
                     </ThemeProvider>
                     <ThemeProvider theme={themeTxtMultiLine}>
                         <TextField
+                            onBlur={(e) => {
+                                setMensaje(e.target.value);
+                            }}
+                            error={(mensaje === "") ? true : false}
                             id="mensaje"
                             required
                             label="Mensaje"
@@ -179,7 +205,7 @@ export const Form = () => {
                 </div>
                 <ColorButton
                     type="submit"
-                    onClick={validarDatos}
+                    onClick={manejarMensaje}
                     id="btn-send"
                     variant="contained"
                     endIcon={<SendIcon />}
