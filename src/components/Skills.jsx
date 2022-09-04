@@ -15,7 +15,7 @@ import githubico from "../assets/icons/icons8-github.svg"
 const Skills=()=>{
     return(
         <section className="skills" id="skills">
-          <h2 className="skill-header">Mis habilidades</h2>
+          <h2 className="skill-header">Skills</h2>
           <div className="skills-set animate__animated animate__pulse">
             <img src={htmlico} alt="icono-html" loading="lazy" className="icon icon-card" />
             <img src={css3ico} alt="icono-cc3" loading="lazy" className="icon icon-card" />

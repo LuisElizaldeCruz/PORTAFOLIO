@@ -6,16 +6,25 @@
     width: 100px;
 } */
 
-.project-card{
+.project-card {
     width: 300px;
     height: 200px;
     position: relative;
     display: flex;
-    border: 2px solid black;
     overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px;
+
 }
 
-.project-img{
+.project-card:hover {
+    border: 2px solid black;
+    box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.49);
+    -webkit-transform:scale(1..05);
+    transform:scale(1.05); /*!se expande la tarjeta */
+}
+
+.project-img {
     width: 100%;
 }
 
@@ -32,7 +41,7 @@
     justify-content: center;
 }
 
-.project-card:hover .mascara{
+.project-card:hover .mascara {
     transform: translateX(0);
     transition: all 0.5s ease-in-out;
 }

@@ -2,37 +2,38 @@
 
 /* -------------skills--------------- */
 .skills {
-    /* max-width: 90%; */
-    width: auto;
-    margin: auto;
-    text-align: center;
-    margin-top: 2.5rem;
-  }
-  
-  .skill-header {
-    margin-bottom: 1rem;
-  }
+  /* max-width: 90%; */
+  width: auto;
+  margin: auto;
+  text-align: center;
+  margin-top: 4rem;
+}
 
-  .skills-set{
-    width: auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .icon:hover{
-    background-color: #8b8eaf;
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2); /*!se expande la tarjeta */
-    transition:all .2s ease-in-out;
+.skill-header {
+  margin-bottom: 1rem;
+}
 
-  }
+.skills-set {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-  .icon-card {
-    background-color: #fff;
-    border-radius: 11px;
-    /* box-shadow: 0px 3px 10px var(--secondary-shadow); */
-    box-shadow: 0px 5px 8px 2px rgba(0,0,0,0.49);
-    padding: 20px;
-    margin: 10px;
-  }
+.icon:hover {
+  background-color: #8b8eaf;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  /*!se expande la tarjeta */
+  transition: all .2s ease-in-out;
+
+}
+
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  /* box-shadow: 0px 3px 10px var(--secondary-shadow); */
+  box-shadow: 0px 5px 8px 2px rgba(0, 0, 0, 0.49);
+  padding: 20px;
+  margin: 10px;
+}
