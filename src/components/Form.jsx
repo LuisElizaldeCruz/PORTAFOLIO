@@ -117,7 +117,7 @@ export const Form = () => {
                 component="form"
                 sx={{
                     width: "500px",
-                    maxWidth: '100%',
+                    maxWidth: '90%',
                     margin: '0 auto',
                     padding: '0 10px',
                     // display: 'flex',

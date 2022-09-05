@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300;400;700&display=swap');
+
 /* CSS Resets */
 * {
   margin: 0;
@@ -67,7 +68,7 @@ body {
     display: block !important;
   }
 
-  nav ul.show{
+  nav ul.show {
     transform: translateX(0);
   }
 
@@ -90,7 +91,7 @@ body {
 
   .more-about {
     margin-top: 2rem;
-    /* padding: 1rem 1.5rem; */
+    width: 90% !important;
   }
 
   .more-about h2 {
@@ -101,29 +102,26 @@ body {
     text-align: justify;
   }
 
-  /* .skills-set {
-    flex-wrap: wrap;
-  } */
-
   .icon {
     width: 5.875rem;
     height: 5.25rem;
   }
 
+  /* 
   .projects-container {
     flex-direction: column;
   }
 
   .project-container {
     width: 30.875rem;
-  }
+  } */
 
   .contact-form-container {
     max-width: 23.75rem;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
 
   .nav {
     width: 100%;
@@ -146,9 +144,22 @@ body {
     width: 18.3rem;
   }
 
-  .project-container {
+  /* .project-container {
     width: 17.875rem;
+  } */
+
+  .project-card {
+    width: 50% ;
   }
+
+  .mascara {
+    transform: translateX(350px) ;
+  }
+
+  .project-card:hover .mascara {
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+}
 
   .contact-form-container {
     max-width: 17.75rem;
