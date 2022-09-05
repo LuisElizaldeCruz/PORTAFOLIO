@@ -84,28 +84,14 @@ const ColorButton = styled(Button)(({ theme }) => ({
     },
 }));
 
-const validarDatos2 = () => {
-    const nombre = document.querySelector('#nombre');
-    if (nombre.value !== "") {
-        console.log(nombre.value);
-    } else {
-        /*
-                console.log("El campo esta vacio");
-                const colorCampo = themetxt.components.MuiTextField.styleOverrides.root["& input + fieldset"];
-                colorCampo.borderColor = "error"
-                */
-    }
-}
-
-
 
 export const Form = () => {
-    const [datos, setDatos] = useState({});
+
     const [nombre, setNombre] = useState(null);
     const [asunto, setAsunto] = useState(null);
     const [correo, setCorreo] = useState(null);
     const [mensaje, setMensaje] = useState(null);
-    const [error, setError] = useState(false);
+    //const [error, setError] = useState(false);
 
     const manejarMensaje = (e) => {
         e.preventDefault();
@@ -125,7 +111,7 @@ export const Form = () => {
 
 
     return (
-        <section className="contacto">
+        <section className="contacto" id="contact">
             <h4 className="form-title">Contactame</h4>
             <Box
                 component="form"
@@ -148,7 +134,7 @@ export const Form = () => {
                                 setNombre(e.target.value);
                                 console.log(nombre);
                                 console.log("se perdio el foco")
-                                nombre ? setError(false) : setError(true);
+                              //  nombre ? setError(false) : setError(true);
                                 //nombre ? console.log("elemento lleno") : console.log("elemento vacio");
                             }}
                             error={(nombre === "") ? true : false}

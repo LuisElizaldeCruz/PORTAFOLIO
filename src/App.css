@@ -64,10 +64,10 @@ body {
   }
 
   .burger-menu {
-    display: block;
+    display: block !important;
   }
 
-  nav ul.show {
+  nav ul.show{
     transform: translateX(0);
   }
 
@@ -127,6 +127,10 @@ body {
 
   .nav {
     width: 100%;
+  }
+
+  .burger-menu {
+    display: block;
   }
 
   .socials {

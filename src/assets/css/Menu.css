@@ -55,7 +55,10 @@ ul {
     background-color: transparent;
     cursor: pointer;
     display: none;
+    user-select: none;
   }
+
+  
 
   .burger-menu:hover{
     color: purple;
