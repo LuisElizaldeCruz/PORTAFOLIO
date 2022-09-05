@@ -14,7 +14,6 @@
     overflow: hidden;
     border: 1px solid black;
     border-radius: 5px;
-
 }
 
 .project-card:hover {
@@ -38,10 +37,23 @@
     opacity: 1;
     transform: translateX(300px);
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .project-card:hover .mascara {
     transform: translateX(0);
     transition: all 0.5s ease-in-out;
+}
+
+.link{
+    display: flex;
+    height: 32px;
+    border-radius: 5px;
+    width: 100px;
+    border: 1px solid white;
+    color: white;
+    align-self: center;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
 }
