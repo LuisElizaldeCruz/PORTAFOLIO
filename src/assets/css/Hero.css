@@ -1,49 +1,73 @@
-
 @import url("./Variables.css");
-  
-  .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 2.5rem;
-    width: auto;
-    margin: auto;
-    /* background-color: rgb(66, 66, 177); */
-    height: 100vh;
-    position: relative;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-  
-  }
 
-  .hero-img{
-    height: 400px;
-    width: 400px;
-  }
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2.5rem;
+  width: auto;
+  margin: auto;
+  /* background-color: rgb(66, 66, 177); */
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 
-  .hero-wave{
-    /* height: 150px; */
-    position: absolute;
-    bottom: 0;
-    /* width: 100%; */
-    
-  }
-  .bio {
-    width: 25rem;
-    padding: 0.625rem;
-    border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-    color: white;
-  }
-  
-  .bio h1 {
-    margin-bottom: var(--bottom-margin);
-  }
+}
 
-  .bio-title{
-    text-align: center;
-  }
-  
-  .bio p {
-    line-height: var(--line-height);
-    padding: 0.3rem 0;
-  }
+.btnHeroProjects {
+  position: relative;
+  background-color: transparent;
+  z-index: 99;
+  color: white;
+  border: 1px solid white;
+  padding: 2px;
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  margin: 15px auto auto auto;
+  outline: none;
+}
+
+.btnHeroProjects:hover{
+  border-color: #2575fc;
+  background-color: red;
+}
+
+.btnHeroProjects,
+a {
+  color: white;
+  font-size: 1rem;
+}
+
+.hero-img {
+  height: 400px;
+  width: 400px;
+}
+
+.hero-wave {
+  position: absolute;
+  bottom: 0;
+}
+
+.bio {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.bio h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.bio-title {
+  text-align: center;
+}
+
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}

@@ -2,6 +2,8 @@ import React from "react";
 import "../assets/css/Hero.css";
 import imgHero from "../assets/images-projects/webDeveloper.svg";
 import imgWave from "../assets/images-projects/wave.svg";
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 
 const Hero = () => {
   return (
@@ -15,6 +17,9 @@ const Hero = () => {
           inventore tempore minus nemo, iste ullam illo laboriosam maiores
           repudiandae quos!
         </p>
+        <button className="btnHeroProjects">
+          <a href="#projects">Ver proyectos</a>
+        </button>
       </div>
       <img src={imgHero} alt="jane-doe" loading="lazy" className="hero-img" />
       <img src={imgWave} alt="jane-doe" loading="lazy" className="hero-wave" />
