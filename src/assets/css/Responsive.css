@@ -1,116 +1,120 @@
 @media screen and (max-width: 720px) {
 
-    /*changes reflects on screen with a width of 720px and below*/
-    nav {
-      padding: 1.5rem 1rem;
-    }
-  
-    nav ul {
-      position: fixed;
-      background-color: var(--bg-color);
-      flex-direction: column;
-      top: 86px;
-      left: 10%;
-      width: 80%;
-      text-align: center;
-      transform: translateX(120%);
-      transition: transform 0.5s ease-in;
-    }
-  
-    nav ul li {
-      margin: 8px;
-    }
-  
-    .burger-menu {
-      display: block !important;
-    }
-  
-    nav ul.show {
-      transform: translateX(0);
-    }
-  
-    .hero {
-      /* margin-top: -4rem; */
-      flex-direction: column;
-      gap: 0;
-  
-    }
-  
-    .hero-img {
-      height: 37.5rem;
-      width: 30rem;
-    }
-  
-    .bio {
-      /* margin-top: -7rem; */
-      width: 20.5rem;
-    }
-  
-    .more-about {
-      margin-top: 2rem;
-      width: 90%;
-    }
-  
-    .more-about h2 {
-      text-align: center;
-    }
-  
-    .more-about p {
-      text-align: justify;
-    }
-  
-    .icon {
-      width: 5.875rem;
-      height: 5.25rem;
-    }
-  
-    .contact-form-container {
-      max-width: 23.75rem;
-    }
+  /*changes reflects on screen with a width of 720px and below*/
+  nav {
+    padding: 1.5rem 1rem;
   }
-  
-  @media screen and (max-width: 480px) {
-  
-    .nav {
-      width: 100%;
-    }
-  
-    .burger-menu {
-      display: block;
-    }
-  
-    .socials {
-      bottom: 40%;
-    }
-  
-    .hero-img {
-      height: 100px;
-      width: 23rem;
-    }
-  
-    .bio {
-      width: 18.3rem;
-    }
 
-    .more-about {
-      margin-top: 2rem;
-      width: 90%;
-    }
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
 
-    .project-card{
-      width: 85%;
-    }
-  
-    .mascara {
-      transform: translateX(400px) ;
-    }
-  
-    .project-card:hover .mascara {
-      transform: translateX(0);
-      transition: all 0.5s ease-in-out;
+  nav ul li {
+    margin: 8px;
   }
-  
-    .contact-form-container {
-      max-width: 17.75rem;
-    }
+
+  .burger-menu {
+    display: block !important;
   }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 0;
+    height: 500px;
+    flex-direction: column-reverse;
+    justify-content: space-evenly
+  }
+
+  .hero-img {
+    height: 10rem;
+    width: 30rem;
+    margin: 1px auto;
+  }
+
+  .bio {
+    margin: 1px auto;
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+  }
+
+  .more-about {
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  .more-about h2 {
+    text-align: center;
+  }
+
+  .more-about p {
+    text-align: justify;
+  }
+
+  .icon {
+    width: 5.875rem;
+    height: 5.25rem;
+  }
+
+  .contact-form-container {
+    max-width: 23.75rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .nav {
+    width: 100%;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .socials {
+    bottom: 40%;
+  }
+
+  .hero-img {
+    height: 100px;
+    width: 23rem;
+  }
+
+  .bio {
+    width: 90%;
+  }
+
+  .more-about {
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  .project-card {
+    width: 85%;
+  }
+
+  .mascara {
+    transform: translateX(400px);
+  }
+
+  .project-card:hover .mascara {
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .contact-form-container {
+    max-width: 17.75rem;
+  }
+}
