@@ -2,7 +2,7 @@
 
 .more-about {
     background-color: var(--bg-color);
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     width: 80%;
     margin: auto;
   }
