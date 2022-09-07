@@ -2,8 +2,6 @@ import React from "react";
 import "../assets/css/Hero.css";
 import imgHero from "../assets/images-projects/webDeveloper.svg";
 import imgWave from "../assets/images-projects/wave.svg";
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 
 const Hero = () => {
   return (
@@ -21,8 +19,8 @@ const Hero = () => {
           <a href="#projects">Ver proyectos</a>
         </button>
       </div>
-      <img src={imgHero} alt="jane-doe" loading="lazy" className="hero-img" />
-      <img src={imgWave} alt="jane-doe" loading="lazy" className="hero-wave" />
+      <img src={imgHero} alt="work-life" loading="lazy" className="hero-img" />
+      <img src={imgWave} alt="hero-wave" loading="lazy" className="hero-wave" />
     </section>
   );
 }

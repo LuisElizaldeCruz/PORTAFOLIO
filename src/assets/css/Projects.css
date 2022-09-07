@@ -38,6 +38,7 @@
     transform: translateX(300px);
     text-align: center;
     justify-content: space-evenly;
+    color: white;
 }
 
 .project-card:hover .mascara {
