@@ -5,16 +5,19 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import { Footer } from "./components/Footer";
 import { Form } from "./components/Form";
-import Project from "./components/Projects";
+import BodyProjectCard from "./components/BodyProjectCard";
 
 
 function App() {
+
   return (
     <div className="App">
       <Menu />
       <Hero />
       <About />
       <Skills />
+      {
+      /*
       <section className="container-projects">
         <h4 className="title-projects">Proyectos</h4>
         <div className="projects" id="projects">
@@ -30,6 +33,9 @@ function App() {
           />
         </div>
       </section>
+      */
+      }
+      <BodyProjectCard />
       <Form />
       <Footer />
     </div>

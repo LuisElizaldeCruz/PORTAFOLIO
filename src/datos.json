@@ -1,0 +1,61 @@
+{
+    "Distancia": [
+      {
+        "id": 1,
+        "clase": "Invoker",
+        "arma": "Adspheras"
+      },
+      {
+        "clase": "Phantasma",
+        "arma": "Espadas-vediant",
+        "id": 2
+      },
+      {
+        "id": 3,
+        "clase": "Huntress",
+        "arma": "Arco"
+      },
+      {
+        "id": 4,
+        "clase": "Archmage",
+        "arma": "Baculo"
+      },
+      {
+        "id": 5,
+        "clase": "Berserker",
+        "arma": "Espadon"
+      },
+      {
+        "clase": "Shai",
+        "arma": "boomerang",
+        "id": 6
+      }
+    ],
+    "Mele": [
+      {
+        "id": 1,
+        "clase": "Solaris",
+        "elemento": "Fuego"
+      },
+      {
+        "id": 2,
+        "clase": "Striker",
+        "elemento": "Fuego"
+      },
+      {
+        "id": 3,
+        "clase": "Valkiria",
+        "elemento": "Viento"
+      },
+      {
+        "id": 4,
+        "clase": "Mistic",
+        "elemento": "Agua"
+      },
+      {
+        "id": 5,
+        "clase": "Drakania",
+        "elemento": "Electricidad"
+      }
+    ]
+  }
