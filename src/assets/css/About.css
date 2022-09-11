@@ -1,7 +1,7 @@
 @import url("./Variables.css");
 
 .more-about {
-    background-color: var(--bg-color);
+    background-color: var(--bg-dark-color);
     padding: 1rem 0;
     width: 80%;
     margin: auto;

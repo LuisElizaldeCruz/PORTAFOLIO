@@ -1,11 +1,5 @@
 import React from "react";
 import Project from "./Projects";
-import { useEffect } from "react";
-
-
-/*
-const loadData = () => JSON.parse(JSON.stringify(datosc));
-console.log(loadData());*/
 
 const getDataCards = () => {
     fetch("data.json")
@@ -20,11 +14,6 @@ const getDataCards = () => {
 }
 getDataCards();
 const BodyProjectCard = () => {
-    /*
-    useEffect(()=>{
-        getDataCards()
-      },[])
-    */
     
     return (
         <>

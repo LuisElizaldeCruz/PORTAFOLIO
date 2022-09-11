@@ -3,17 +3,14 @@ import "../assets/css/Hero.css";
 import imgHero from "../assets/images-projects/webDeveloper.svg";
 import imgWave from "../assets/images-projects/wave.svg";
 
-const Hero = () => {
+const Hero = ({ heroDescription}) => {
   return (
     //Hero Section
     <section className="hero" id="about">
       <div className="bio animate__animated animate__shakeX">
-        <h2 className="bio-title">Acerca de mi</h2>
+        <h2 className="bio-title">Desarrollado web</h2>
         <p className="bio-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-          inventore tempore minus nemo, iste ullam illo laboriosam maiores
-          repudiandae quos!
+          {heroDescription}
         </p>
         <button className="btnHeroProjects">
           <a href="#projects">Ver proyectos</a>
