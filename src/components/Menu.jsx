@@ -22,7 +22,7 @@ const Menu = () => {
 
   return (
     <nav onClick={ocultarClicked}>
-      <h1 className="name">Luis Elizalde</h1>
+      <h1 className="name"> <a href="#about" className="name-link">Luis Elizalde</a></h1>
       <ul className="navigation">
         <li><a href="#about" className="nav-link about">Acerca de mi</a></li>
         <li><a href="#skills" className="nav-link skills">Habilidades</a></li>

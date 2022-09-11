@@ -1,5 +1,13 @@
 @import url("./Variables.css");
 
+.name-link{
+  font-size: 24px;
+}
+.name-link:hover{
+  color: purple;
+  cursor: pointer;
+}
+
 ul {
     list-style-type: none;
   }
@@ -34,7 +42,7 @@ ul {
     color: var(--primary-color);
     transition: var(--transition);
   }
-  nav a:hover {
+  nav a:hover:not(.name-link) {
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
   }
@@ -44,7 +52,7 @@ ul {
     gap: 1.9rem;
   }
   
-  nav ul li {
+  nav ul li{
     font-weight: var(--bold-font);
   }
 
@@ -64,7 +72,3 @@ ul {
     color: purple;
   }
 
-  .name:hover{
-    color: purple;
-    cursor: pointer;
-  }
