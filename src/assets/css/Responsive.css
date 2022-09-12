@@ -1,11 +1,11 @@
+
 @media screen and (max-width: 720px) {
 
-  /*changes reflects on screen with a width of 720px and below*/
-  nav {
+  .nav-menu {
     padding: 1.5rem 1rem;
   }
 
-  nav ul {
+  .nav-menu ul {
     position: fixed;
     background-color: var(--bg-color);
     flex-direction: column;
@@ -17,7 +17,7 @@
     transition: transform 0.5s ease-in;
   }
 
-  nav ul li {
+  .nav-menu ul li {
     margin: 8px;
   }
 
@@ -25,7 +25,7 @@
     display: block !important;
   }
 
-  nav ul.show {
+  .nav-menu ul.show {
     transform: translateX(0);
   }
 
@@ -71,11 +71,16 @@
   .contact-form-container {
     max-width: 23.75rem;
   }
+
+  .MuiPagination-root {
+    width: 90%;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
 
-  .nav {
+  .nav-menu {
     width: 100%;
   }
 
@@ -118,3 +123,4 @@
     max-width: 17.75rem;
   }
 }
+

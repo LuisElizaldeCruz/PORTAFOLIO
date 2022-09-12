@@ -21,7 +21,7 @@ const ocultarClicked = (e) => {
 const Menu = () => {
 
   return (
-    <nav onClick={ocultarClicked}>
+    <nav className="nav-menu"onClick={ocultarClicked}>
       <h1 className="name"> <a href="#about" className="name-link">Luis Elizalde</a></h1>
       <ul className="navigation">
         <li><a href="#about" className="nav-link about">Acerca de mi</a></li>
