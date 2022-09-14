@@ -17,7 +17,7 @@
 .btnHeroProjects {
   position: relative;
   background-color: transparent;
-  z-index: 99;
+  z-index: 2;
   color: white;
   border: 1px solid white;
   padding: 2px;
@@ -67,7 +67,8 @@ a {
   text-align: center;
 }
 
-.bio p {
-  line-height: var(--line-height);
+.bio-text {
+  /* line-height: var(--line-height); */
   padding: 0.3rem 0;
+  width: auto;
 }

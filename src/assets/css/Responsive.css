@@ -45,9 +45,9 @@
 
   .bio {
     margin: 10px auto 50px auto;
-    /* margin-top: 10px; */
     width: 90%;
     height: auto;
+    text-align: center;
   }
 
   .more-about {
