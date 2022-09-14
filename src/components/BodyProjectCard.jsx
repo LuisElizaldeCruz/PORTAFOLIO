@@ -1,4 +1,5 @@
 
+import { React, useState} from "react";
 import Project from "./Projects";
 import { Pagination } from '@mui/material';
 
@@ -63,7 +64,7 @@ const BodyProjectCard = () => {
                     boundaryCount={2}
                     color="secondary"
                     siblingCount={2}
-                    onChange={handleClick}
+                    onChange={e=>handleClick(e)}
                 />
             </section>
         </>
