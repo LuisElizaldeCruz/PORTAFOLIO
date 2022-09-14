@@ -1,12 +1,6 @@
 import React from "react";
 import "../assets/css/Menu.css"
 import MenuIcon from '@mui/icons-material/Menu';
-/*
-const btn = document.getElementById("burger-menu");
-btn.addEventListener("click", () =>{
- document.querySelector(".navigation").classList.toggle("show");
-});
-*/
 
 const mostrarMenu = (e) => {
   document.querySelector(".navigation").classList.toggle("show");
