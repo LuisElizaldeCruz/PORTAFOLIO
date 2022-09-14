@@ -17,11 +17,27 @@ const proyectosRealizados = [
         "alt": "expense-traker2",
         "description": "este es un poryecto de ejemplo 2",
         "link": "www.example2.com"
+    },
+    {
+        "id": 3,
+        "img": "expenseTracker.png",
+        "alt": "expense-traker",
+        "description": "este es un poryecto de ejemplo",
+        "link": "www.example.com"
+    },
+    {
+        "id": 4,
+        "img": "netflixClone.png",
+        "alt": "expense-traker2",
+        "description": "este es un poryecto de ejemplo 2",
+        "link": "www.example2.com"
     }
 ]
 
+const handleClick = (e) => {
+    console.log(e.target.textContent)
+}
 const BodyProjectCard = () => {
-
     return (
         <>
             <section className="container-projects">
@@ -30,19 +46,25 @@ const BodyProjectCard = () => {
                     {
                         proyectosRealizados.map(p => {
                             return (
-                                <>
-                                    <Project key={p.id} img={p.img}
-                                        alt={p.alt}
-                                        description={p.description}
-                                        link={p.link}
-                                    />
-                                </>
+                                <Project
+                                    key={p.id.toString()}
+                                    img={p.img}
+                                    alt={p.alt}
+                                    description={p.description}
+                                    link={p.link}
+                                />
                             );
                         })
                     }
 
                 </div>
-                <Pagination count={4} boundaryCount={2} color="secondary" siblingCount={2} />
+                <Pagination
+                    count={4}
+                    boundaryCount={2}
+                    color="secondary"
+                    siblingCount={2}
+                    onChange={handleClick}
+                />
             </section>
         </>
     );
