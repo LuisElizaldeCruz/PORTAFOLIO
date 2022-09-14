@@ -3,7 +3,6 @@ import { React, useState} from "react";
 import Project from "./Projects";
 import { Pagination } from '@mui/material';
 
-
 const proyectosRealizados = [
     {
         "id": 1,
@@ -35,9 +34,7 @@ const proyectosRealizados = [
     }
 ]
 
-const handleClick = (e) => {
-    console.log(e.target.textContent)
-}
+
 const BodyProjectCard = () => {
     return (
         <>
@@ -60,11 +57,10 @@ const BodyProjectCard = () => {
 
                 </div>
                 <Pagination
-                    count={4}
+                    count={2}
                     boundaryCount={2}
                     color="secondary"
                     siblingCount={2}
-                    onChange={e=>handleClick(e)}
                 />
             </section>
         </>
