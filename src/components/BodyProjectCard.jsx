@@ -1,7 +1,6 @@
 
-import { React, useState} from "react";
+import { React } from "react";
 import Project from "./Projects";
-import { Pagination } from '@mui/material';
 
 const proyectosRealizados = [
     {
@@ -56,12 +55,7 @@ const BodyProjectCard = () => {
                     }
 
                 </div>
-                <Pagination
-                    count={2}
-                    boundaryCount={2}
-                    color="secondary"
-                    siblingCount={2}
-                />
+              
             </section>
         </>
     );
