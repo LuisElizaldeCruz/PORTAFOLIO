@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer" id="footer">
             <p className="name-footer">Luis Elizalde</p>
             <div className="social-container">
                 <p className="social-title">Redes sociales</p>

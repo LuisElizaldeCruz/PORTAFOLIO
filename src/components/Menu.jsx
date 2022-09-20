@@ -13,31 +13,31 @@ const ocultarClicked = (e) => {
   }
 }
 
-  /*
+  
   window.onscroll=()=>{
     const y = window.scrollY; 
     console.log(y)
     const navMenu = document.querySelector(".nav-menu");
-    if(y<450){
-      navMenu.className ="nav-menu"
-    }else{
+    if(y<550){
       navMenu.className ="nav-menu nav-menuColor"
-
+    }else{
+      navMenu.className ="nav-menu"
     }
   }
-  */
+  
+  
 
 
 const Menu = () => {
 
   return (
-    <nav className="nav-menu"onClick={ocultarClicked}>
+    <nav className="nav-menu nav-menuColor"onClick={ocultarClicked}>
       <h1 className="name"> <a href="#about" className="name-link">Luis Elizalde</a></h1>
       <ul className="navigation">
         <li><a href="#about" className="nav-link about">Acerca de mi</a></li>
         <li><a href="#skills" className="nav-link skills">Habilidades</a></li>
         <li><a href="#projects" className="nav-link proyectos">Proyectos</a></li>
-        <li><a href="#contact" className="nav-link contact">Contacto</a></li>
+        <li><a href="#footer" className="nav-link contact">Contacto</a></li>
       </ul>
 
       <button className="burger-menu" id="burger-menu" onClick={mostrarMenu}>

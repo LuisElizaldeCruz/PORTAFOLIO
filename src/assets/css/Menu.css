@@ -1,79 +1,92 @@
 @import url("./Variables.css");
 
-.name-link{
+.name-link {
   font-size: 24px;
 }
-.name-link:hover{
+
+.name-link:hover {
   color: purple;
   cursor: pointer;
 }
 
 ul {
-    list-style-type: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: var(--primary-color);
-  }
-  
-  a>.nav-menu-link:hover {
-    color: var(--secondary-color);
-  }
+  list-style-type: none;
+}
 
-  .nav-menu {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
-    /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); */
-  }
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
 
-  .nav-menuColor{/*cambio de color al hacer scroll*/
-    background-color: #6a11cb;
-    color: white;
-  }
+a>.nav-menu-link:hover {
+  color: var(--secondary-color);
+}
 
-  .nav-menu h1 {
-    color: var(--primary-color);
-  }
-  
-  .nav-menu a {
-    color: var(--primary-color);
-    transition: var(--transition);
-  }
-  .nav-menu a:hover:not(.name-link) {
-    color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
-  }
-  
-  .nav-menu ul {
-    display: flex;
-    gap: 1.9rem;
-  }
-  
-  .nav-menu ul li{
-    font-weight: var(--bold-font);
-  }
+.nav-menu {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+  /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); */
+}
 
-  .burger-menu {
-    color: var(--primary-color);
-    font-size: 2rem;
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
-    display: none;
-    user-select: none;
-  }
+.nav-menuColor {
+  /*cambio de color al hacer scroll*/
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  transition: all 0.1s ease-in-out;
+}
 
-  
+.nav-menu h1 {
+  color: var(--primary-color);
+}
 
-  .burger-menu:hover{
-    color: purple;
-  }
+.nav-menu a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
 
+.nav-menuColor h1,
+.nav-menuColor a {
+  color: white;
+}
+
+.nav-menu a:hover:not(.name-link) {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.nav-menuColor .name-link:hover {
+  color: var(--secondary-color);
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+.nav-menu ul li {
+  font-weight: var(--bold-font);
+}
+
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+  user-select: none;
+}
+
+.nav-menuColor .burger-menu {
+  color: white;
+}
+
+.burger-menu:hover {
+  color: purple;
+}
