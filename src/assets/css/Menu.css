@@ -17,11 +17,11 @@ ul {
     color: var(--primary-color);
   }
   
-  a>.nav-link:hover {
+  a>.nav-menu-link:hover {
     color: var(--secondary-color);
   }
 
-  nav {
+  .nav-menu {
     position: sticky;
     top: 0;
     left: 0;
@@ -34,25 +34,30 @@ ul {
     /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); */
   }
 
-  nav h1 {
+  .nav-menuColor{/*cambio de color al hacer scroll*/
+    background-color: #6a11cb;
+    color: white;
+  }
+
+  .nav-menu h1 {
     color: var(--primary-color);
   }
   
-  nav a {
+  .nav-menu a {
     color: var(--primary-color);
     transition: var(--transition);
   }
-  nav a:hover:not(.name-link) {
+  .nav-menu a:hover:not(.name-link) {
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
   }
   
-  nav ul {
+  .nav-menu ul {
     display: flex;
     gap: 1.9rem;
   }
   
-  nav ul li{
+  .nav-menu ul li{
     font-weight: var(--bold-font);
   }
 

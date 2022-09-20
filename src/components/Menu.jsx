@@ -12,6 +12,22 @@ const ocultarClicked = (e) => {
     console.log(e.target);
   }
 }
+
+  /*
+  window.onscroll=()=>{
+    const y = window.scrollY; 
+    console.log(y)
+    const navMenu = document.querySelector(".nav-menu");
+    if(y<450){
+      navMenu.className ="nav-menu"
+    }else{
+      navMenu.className ="nav-menu nav-menuColor"
+
+    }
+  }
+  */
+
+
 const Menu = () => {
 
   return (

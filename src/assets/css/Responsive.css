@@ -2,7 +2,9 @@
 @media screen and (max-width: 720px) {
 
   .nav-menu {
-    padding: 1.5rem 1rem;
+    /* padding: 1.5rem 1rem; */
+    padding: 1.5rem 0;
+
   }
 
   .nav-menu ul {
@@ -10,11 +12,20 @@
     background-color: var(--bg-color);
     flex-direction: column;
     top: 86px;
-    left: 10%;
-    width: 80%;
+    /* left: 10%; */
+    
+    width: 100%;
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
+  }
+
+  .nav-menu .name-link{
+    margin-left: 20px;
+  }
+
+  .nav-menu .burger-menu{
+    margin-right: 20px;
   }
 
   .nav-menu ul li {
@@ -94,7 +105,8 @@
 
   .hero-img {
     height: 100px;
-    width: 23rem;
+    /* width: 23rem; */
+    width: auto;
   }
 
   .bio {
@@ -122,5 +134,17 @@
   .contact-form-container {
     max-width: 17.75rem;
   }
+
+  .social-container{
+    width: 90%;
+  }
+
+  .icons-container{
+    width: 100%;
+}
+
+.icon-social-network{
+   width: 100%;
+}
 }
 
