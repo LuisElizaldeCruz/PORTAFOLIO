@@ -63,10 +63,11 @@
   }
 
   .bio {
-    margin: 10px auto 50px auto;
+    margin: 10px auto 70px auto;
     width: 90%;
     height: auto;
     text-align: center;
+    height: 170px;
   }
 
   .more-about {
