@@ -87,6 +87,6 @@ a>.nav-menu-link:hover {
   color: white;
 }
 
-.burger-menu:hover {
+.burger-menu:focus {
   color: purple;
 }

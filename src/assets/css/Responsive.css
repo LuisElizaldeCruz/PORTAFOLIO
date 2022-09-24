@@ -1,9 +1,7 @@
 @media screen and (max-width: 720px) {
 
   .nav-menu {
-    /* padding: 1.5rem 1rem; */
     padding: 1.5rem 0;
-
   }
 
   .nav-menu h1,
@@ -21,7 +19,6 @@
     background-color: var(--bg-color);
     flex-direction: column;
     top: 86px;
-    /* left: 10%; */
     width: 100%;
     text-align: center;
     transform: translateX(120%);
@@ -116,7 +113,6 @@
 
   .hero-img {
     height: 150px;
-    /* width: 23rem; */
     width: auto;
   }
 

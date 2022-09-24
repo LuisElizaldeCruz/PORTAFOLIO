@@ -19,6 +19,7 @@ function App() {
       <About />
       <Skills />
       <BodyProjectCard />
+      {/* <Form /> */}
       <Footer />
     </div>
   );

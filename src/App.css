@@ -20,7 +20,7 @@ body {
 /*css style project secition*/
 .projects {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 40px;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
