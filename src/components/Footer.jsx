@@ -14,12 +14,14 @@ export const Footer = () => {
                 <div className="icons-container">
                     <SocialNetworkIcon
                         url="https://github.com/LuisElizaldeCruz"
-                        icono={<GitHubIcon fontSize="large"
+                        icono={<GitHubIcon
+                            fontSize="large"
                             color="#e3f2fd" />}
                     />
                     <SocialNetworkIcon
                         url="https://www.linkedin.com/in/luis-elizaldec/"
-                        icono={<LinkedInIcon fontSize="large"
+                        icono={<LinkedInIcon
+                            fontSize="large"
                             color="#e3f2fd" />}
                     />
                 </div>

@@ -1,4 +1,3 @@
-
 import { React } from "react";
 import Project from "./Projects";
 
@@ -7,28 +6,28 @@ const proyectosRealizados = [
         "id": 1,
         "img": "expenseTracker.png",
         "alt": "expense-traker",
-        "description": "este es un poryecto de ejemplo",
+        "description": "este es un proyecto de ejemplo",
         "link": "www.example.com"
     },
     {
         "id": 2,
         "img": "netflixClone.png",
         "alt": "expense-traker2",
-        "description": "este es un poryecto de ejemplo 2",
+        "description": "este es un proyecto de ejemplo 2",
         "link": "www.example2.com"
     },
     {
         "id": 3,
         "img": "expenseTracker.png",
         "alt": "expense-traker",
-        "description": "este es un poryecto de ejemplo",
+        "description": "este es un proyecto de ejemplo",
         "link": "www.example.com"
     },
     {
         "id": 4,
         "img": "netflixClone.png",
         "alt": "expense-traker2",
-        "description": "este es un poryecto de ejemplo 2",
+        "description": "este es un proyecto de ejemplo 2",
         "link": "www.example2.com"
     }
 ]
@@ -53,9 +52,7 @@ const BodyProjectCard = () => {
                             );
                         })
                     }
-
                 </div>
-              
             </section>
         </>
     );

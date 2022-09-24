@@ -9,7 +9,6 @@ import BodyProjectCard from "./components/BodyProjectCard";
 
 
 function App() {
-
   return (
     <div className="App">
       <Menu />
