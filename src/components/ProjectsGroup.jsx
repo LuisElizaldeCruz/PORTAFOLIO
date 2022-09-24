@@ -1,9 +1,10 @@
 import { React } from "react";
-import Project from "./Projects";
+import Project from "./Project";
 
 const proyectosRealizados = [
     {
         "id": 1,
+        "title": "proyecto 1",
         "img": "expenseTracker.png",
         "alt": "expense-traker",
         "description": "este es un proyecto de ejemplo",
@@ -11,6 +12,7 @@ const proyectosRealizados = [
     },
     {
         "id": 2,
+        "title": "proyecto 2",
         "img": "netflixClone.png",
         "alt": "expense-traker2",
         "description": "este es un proyecto de ejemplo 2",
@@ -18,6 +20,7 @@ const proyectosRealizados = [
     },
     {
         "id": 3,
+        "title": "proyecto 3",
         "img": "expenseTracker.png",
         "alt": "expense-traker",
         "description": "este es un proyecto de ejemplo",
@@ -25,6 +28,7 @@ const proyectosRealizados = [
     },
     {
         "id": 4,
+        "title": "proyecto 4",
         "img": "netflixClone.png",
         "alt": "expense-traker2",
         "description": "este es un proyecto de ejemplo 2",
@@ -33,7 +37,7 @@ const proyectosRealizados = [
 ]
 
 
-const BodyProjectCard = () => {
+const ProjectsGroup = () => {
     return (
         <>
             <section className="container-projects">
@@ -43,6 +47,7 @@ const BodyProjectCard = () => {
                         proyectosRealizados.map(p => {
                             return (
                                 <Project
+                                projectTitle={p.title}
                                     key={p.id.toString()}
                                     img={p.img}
                                     alt={p.alt}
@@ -58,4 +63,4 @@ const BodyProjectCard = () => {
     );
 }
 
-export default BodyProjectCard;
+export default ProjectsGroup;

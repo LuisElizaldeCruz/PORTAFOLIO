@@ -5,7 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import { Footer } from "./components/Footer";
 //import { Form } from "./components/Form";
-import BodyProjectCard from "./components/BodyProjectCard";
+import ProjectsGroup from "./components/ProjectsGroup";
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       />
       <About />
       <Skills />
-      <BodyProjectCard />
+      <ProjectsGroup />
       {/* <Form /> */}
       <Footer />
     </div>
