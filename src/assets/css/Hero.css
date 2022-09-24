@@ -14,49 +14,19 @@
 
 }
 
-.btnHeroProjects {
-  position: relative;
-  background-color: transparent;
-  z-index: 2;
-  color: white;
-  border: 1px solid white;
-  padding: 2px;
-  height: 40px;
-  width: 150px;
-  border-radius: 8px;
-  margin: 15px auto auto auto;
-  outline: none;
-}
-
-.btnHeroProjects:hover{
-  border-color: #2575fc;
-  background-color: red;
-}
-
-.btnHeroProjects,
-a {
-  color: white;
-  font-size: 1rem;
-}
-
-.hero-img {
-  height: 400px;
-  width: 400px;
-}
-
-.hero-wave {
-  position: absolute;
-  bottom: 0;
-}
-
 .bio {
-  width: 25rem;
+  width: 27rem;
+  height: 300px;
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   color: white;
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: space-around;
+
 }
 
 .bio h1 {
@@ -71,4 +41,41 @@ a {
   /* line-height: var(--line-height); */
   padding: 0.3rem 0;
   width: auto;
+}
+
+.hero-img {
+  height: 500px;
+  width: 500px;
+  margin-bottom: 100px;
+}
+
+.btnHeroProjects {
+  position: relative;
+  background-color: transparent;
+  z-index: 2;
+  color: white;
+  border: 1px solid white;
+  /* padding: 2px; */
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  /* margin: 15px auto auto auto; */
+  outline: none;
+}
+
+.btnHeroProjects:hover {
+  border-color: #2575fc;
+  background-color: red;
+}
+
+.btnHeroProjects>
+a {
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.hero-wave {
+  position: absolute;
+  bottom: 0;
 }
