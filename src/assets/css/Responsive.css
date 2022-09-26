@@ -18,7 +18,7 @@
     position: fixed;
     background-color: var(--bg-color);
     flex-direction: column;
-    top: 86px;
+    top: 85px;
     width: 100%;
     text-align: center;
     transform: translateX(120%);
@@ -51,21 +51,19 @@
 
   .hero {
     flex-direction: column;
-    height: 450px;
     flex-direction: column-reverse;
     justify-content: space-evenly
   }
 
   .hero-img {
-    height: 10rem;
-    width: 30rem;
+    height: 14rem;
+    width: 32rem;
     margin: 1px auto;
   }
 
   .bio {
-    margin: 10px auto 70px auto;
+    margin: 10px auto 100px auto;
     width: 90%;
-    height: auto;
     text-align: center;
     height: 170px;
   }
@@ -104,6 +102,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+  .hero {
+    height: 480px;
+  }
 
   .nav-menu {
     width: 100%;
