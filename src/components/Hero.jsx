@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/Hero.css";
-import imgHero from "../assets/images-projects/webDeveloper.svg";
-import imgWave from "../assets/images-projects/wave.svg";
+import imgHero from "../assets/multimedia/webDeveloper.svg";
+import imgWave from "../assets/multimedia/wave.svg";
 
 const Hero = ({ heroDescription}) => {
   return (
