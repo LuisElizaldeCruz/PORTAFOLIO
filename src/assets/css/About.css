@@ -1,5 +1,8 @@
 @import url("./Variables.css");
 
+.personal-info{
+text-align: center;
+}
 .more-about {
     background-color: var(--bg-dark-color);
     padding: 1rem 0;
@@ -15,4 +18,9 @@
   .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem;
+    text-align: justify;
+  }
+
+  #btnDownload{
+    margin-top: 30px;
   }

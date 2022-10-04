@@ -76,7 +76,7 @@ const themeTxtMultiLine = createTheme({
     },
 });
 
-const ColorButton = styled(Button)(({ theme }) => ({
+export const ColorButton = styled(Button)(({ theme }) => ({
     color: theme.palette.getContrastText(purple[500]),
     backgroundColor: '#2c387e',
     '&:hover': {
