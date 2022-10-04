@@ -17,27 +17,3 @@ body {
   font-family: 'Taviraj', serif;
 }
 
-/*css style project secition*/
-.projects {
-  width: 100%;
-  margin-top: 40px;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.title-projects {
-  width: auto;
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.container-projects {
-  margin-top: 100px;
-}
-
-/*css style project secition end*/
-
-

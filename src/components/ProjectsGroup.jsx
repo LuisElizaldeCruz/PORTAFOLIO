@@ -1,6 +1,6 @@
 import { React } from "react";
 import Project from "./Project";
-
+import "../assets/css/ProjectsGroup.css"
 const proyectosRealizados = [
     {
         "id": 1,
