@@ -1,5 +1,5 @@
 import * as React from 'react';
-import '../assets/css/Projects.css'
+import '../assets/css/Projects.css';
 
 export default function Project({ projectTitle, img, alt, description, link = "#" }) {
   return (

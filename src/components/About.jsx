@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/css/About.css"
-import Button from '@mui/material/Button';
 import { DownloadRounded } from "@mui/icons-material";
 import { ColorButton } from "./Form";
 

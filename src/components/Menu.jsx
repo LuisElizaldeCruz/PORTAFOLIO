@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/Menu.css"
+import "../assets/css/Menu.css";
 import MenuIcon from '@mui/icons-material/Menu';
 
 const mostrarMenu = (e) => {

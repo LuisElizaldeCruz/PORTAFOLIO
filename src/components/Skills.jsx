@@ -1,12 +1,12 @@
 import React from "react";
-import "../assets/css/Skills.css"
-import htmlIco from "../assets/icons/icons8-html-5.svg"
-import css3Ico from "../assets/icons/icons8-css3.svg"
-import jsIco from "../assets/icons/icons8-javascript.svg"
-import gitIco from "../assets/icons/icons8-git.svg"
-import sassIco from "../assets/icons/icons8-sass.svg"
-import reactIco from "../assets/icons/icons8-react.svg"
-import githubIco from "../assets/icons/icons8-github.svg"
+import "../assets/css/Skills.css";
+import htmlIco from "../assets/icons/icons8-html-5.svg";
+import css3Ico from "../assets/icons/icons8-css3.svg";
+import jsIco from "../assets/icons/icons8-javascript.svg";
+import gitIco from "../assets/icons/icons8-git.svg";
+import sassIco from "../assets/icons/icons8-sass.svg";
+import reactIco from "../assets/icons/icons8-react.svg";
+import githubIco from "../assets/icons/icons8-github.svg";
 
 const Skills = () => {
   return (
