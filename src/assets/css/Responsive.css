@@ -103,6 +103,14 @@
 
 @media screen and (max-width: 480px) {
 
+  .bio-title{
+    font-size: 2rem;
+  }
+
+  .bio-text{
+    font-size: 1rem;
+  }
+
   .hero {
     height: 480px;
   }
