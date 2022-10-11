@@ -20,7 +20,7 @@ const About = ({ moreDescription }) => {
                 variant="contained"
                 endIcon={<DownloadRounded />}
             >
-                Ver CV
+                <a href="../CV-Luis-Elizalde.pdf" download="CV-Luis-Elizalde.pdf">Descargar CV</a>
             </ColorButton>
         </section>
     );

@@ -27,3 +27,7 @@
   margin-top: 30px;
   width: 150px;
 }
+
+#btnDownload a {
+  color: white;
+}
