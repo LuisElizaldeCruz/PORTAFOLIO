@@ -2,12 +2,12 @@
 
 .personal-info {
   text-align: center;
-  margin: 100px auto 150px auto;
+  margin: 70px auto 120px auto;
 }
 
 .more-about {
   background-color: var(--bg-dark-color);
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   width: 80%;
   margin: auto;
 }

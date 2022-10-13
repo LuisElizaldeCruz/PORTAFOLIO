@@ -5,7 +5,7 @@ import { ColorButton } from "./Form";
 
 const About = ({ moreDescription }) => {
     return (
-        <section className="personal-info">
+        <section className="personal-info" id="personal-info">
             <div className="more-about">
                 <h2>Acerca de mi</h2>
                 <p>

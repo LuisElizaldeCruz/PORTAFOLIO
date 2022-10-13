@@ -17,3 +17,6 @@ body {
   font-family: 'Taviraj', serif;
 }
 
+section:not(.hero){
+  padding-top: 4.5rem;
+}

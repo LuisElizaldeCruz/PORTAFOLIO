@@ -6,7 +6,7 @@ import { projectSet } from "./ProjectsData.js";
 const ProjectsGroup = () => {
     return (
         <>
-            <section className="container-projects">
+            <section className="container-projects" id="container-projects">
                 <h4 className="title-projects">Proyectos</h4>
                 <div className="projects" id="projects">
                     {

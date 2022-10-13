@@ -169,4 +169,8 @@
   .icon-social-network {
     width: 100%;
   }
+
+  section:not(.personal-info, .hero){
+    padding-top: 5.5rem;
+  }
 }

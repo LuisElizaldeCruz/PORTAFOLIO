@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section className="skills" id="skills">
       <h2 className="skill-header">Skills</h2>
-      <div className="skills-set animate__animated animate__pulse">
+      <div className="skills-set">
         <div className="icon-card">
           <img src={htmlIco} alt="icono-html" loading="lazy" className="icon" />
           <label className="skill-name">HTML</label>

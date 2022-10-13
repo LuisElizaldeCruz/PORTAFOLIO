@@ -13,7 +13,7 @@ const Hero = ({ heroDescription}) => {
           {heroDescription}
         </p>
         <button className="btnHeroProjects">
-          <a href="#projects">Ver proyectos</a>
+          <a href="#container-projects">Ver proyectos</a>
         </button>
       </div>
       <img src={imgHero} alt="work-life" loading="lazy" className="hero-img" />
