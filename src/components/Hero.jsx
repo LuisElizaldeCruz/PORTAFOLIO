@@ -8,7 +8,7 @@ const Hero = ({ heroDescription}) => {
     //Hero Section
     <section className="hero" id="about">
       <div className="bio animate__animated animate__shakeX">
-        <h2 className="bio-title">Desarrollador web</h2>
+        <h2 className="bio-title">Pogramador web</h2>
         <p className="bio-text">
           {heroDescription}
         </p>

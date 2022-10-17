@@ -68,6 +68,14 @@
     height: 170px;
   }
 
+  .bio-title{
+    font-size: 2rem;
+  }
+
+  .bio-text{
+    font-size: 1.2rem;
+  }
+
   .more-about {
     margin-top: 2rem;
     width: 90%;
