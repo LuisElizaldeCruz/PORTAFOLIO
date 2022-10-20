@@ -1,13 +1,14 @@
 @import url("./Variables.css");
 
 .project-card {
-    width: 300px;
-    height: 200px;
+    min-width: 300px;
+    height: 250px;
     position: relative;
     display: flex;
     overflow: hidden;
     border: 1px solid black;
     border-radius: 5px;
+    flex: 1;
 }
 
 .project-card:hover {
@@ -30,7 +31,7 @@
     flex-direction: column;
     background-color: rgba(70, 83, 79, 0.7);
     opacity: 1;
-    transform: translateX(300px);
+    transform: translateX(900px);
     text-align: center;
     justify-content: space-evenly;
     color: white;
@@ -61,7 +62,7 @@
 .link:hover {
     transform: scale(1.05);
 }
-
+/* 
 .MuiPagination-root {
     display: block;
     height: auto;
@@ -75,4 +76,4 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */

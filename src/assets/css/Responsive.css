@@ -107,6 +107,10 @@
     justify-content: space-between;
   }
 
+  .project-card{
+    flex: none;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
