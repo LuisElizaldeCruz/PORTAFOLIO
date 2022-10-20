@@ -7,28 +7,27 @@
   gap: 2.5rem;
   width: auto;
   margin: auto;
-  /* background-color: rgb(66, 66, 177); */
-  height: 100vh;
+  height: 120vh;
   position: relative;
-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  /* background-image: linear-gradient(to right, rgba(106, 17, 203,.7) 0%, rgba(37, 117, 252,.7) 100%),url("../multimedia/code-world.jpg"); */
+  background-image: linear-gradient(to right, rgba(0, 0, 0,.7) 50%,  rgba(0, 0, 0,.7) 70%),url("../multimedia/code-world.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .bio {
-  width: 28rem;
+  width: 48rem;
   height: 300px;
   padding: 0.625rem;
   border-radius: 6px;
-  /* box-shadow: 0px 2px 15px 2px var(--primary-shadow); */
   color: white;
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
   align-items: center;
   justify-content: space-around;
-  /* border: solid 1px grey; */
-  border: solid 1px #430981f8;
-  /* box-shadow: 1px 1px 5px 1px #430981f8; */
-
+  /* border: solid 1px #430981f8; */
 }
 
 .bio h1 {
@@ -59,7 +58,6 @@
   z-index: 2;
   color: white;
   border: 1px solid white;
-  /* padding: 2px; */
   height: 40px;
   width: 150px;
   border-radius: 8px;

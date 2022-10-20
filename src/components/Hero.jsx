@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/Hero.css";
-import imgHero from "../assets/multimedia/webDeveloper.svg";
+//import imgHero from "../assets/multimedia/webDeveloper.svg";
 import imgWave from "../assets/multimedia/wave.svg";
 
 const Hero = ({ heroDescription}) => {
@@ -16,7 +16,7 @@ const Hero = ({ heroDescription}) => {
           <a href="#container-projects">Ver proyectos</a>
         </button>
       </div>
-      <img src={imgHero} alt="work-life" loading="lazy" className="hero-img" />
+      {/* <img src={imgHero} alt="work-life" loading="lazy" className="hero-img" /> */}
       <img src={imgWave} alt="hero-wave" loading="lazy" className="hero-wave" />
     </section>
   );

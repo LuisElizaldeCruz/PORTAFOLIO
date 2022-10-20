@@ -39,7 +39,7 @@
 
 .project-card:hover .mascara {
     transform: translateX(0);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.6s ease-out;
 }
 
 .project-card:hover .project-img{

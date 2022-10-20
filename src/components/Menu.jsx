@@ -18,15 +18,15 @@ window.onscroll = () => {
   console.log(y)
   const navMenu = document.querySelector(".nav-menu");
   if (y < 550) {
-    navMenu.className = "nav-menu nav-menuColor"
-  } else {
     navMenu.className = "nav-menu"
+  } else {
+    navMenu.className = "nav-menu nav-menuColor"
   }
 }
 
 const Menu = () => {
   return (
-    <nav className="nav-menu nav-menuColor" onClick={ocultarClicked}>
+    <nav className="nav-menu" onClick={ocultarClicked}>
       <h1 className="name"> <a href="#about" className="name-link">Luis Elizalde</a></h1>
       <ul className="navigation">
         <li><a href="#personal-info" className="nav-link about">Acerca de mi</a></li>

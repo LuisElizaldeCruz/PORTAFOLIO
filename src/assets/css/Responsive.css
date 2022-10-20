@@ -4,16 +4,14 @@
     padding: 1.5rem 0;
   }
 
-  .nav-menu h1,
-  .nav-menu a {
-    color: var(--primary-color);
-  }
-
-  .nav-menuColor h1,
-  .nav-menuColor a {
+  .nav-menu h1{
     color: white;
   }
 
+  .nav-menu a:not(.name-link){
+    color: var(--primary-color);
+  }
+  
   .nav-menu ul {
     position: fixed;
     background-color: var(--bg-color);
@@ -25,8 +23,12 @@
     transition: transform 0.5s ease-in;
   }
 
-  .nav-menuColor ul {
+  .nav-menuColor ul{
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  }
+
+  .nav-menuColor ul a {
+    color: white !important;
   }
 
   .nav-menu .name-link {
@@ -43,6 +45,7 @@
 
   .burger-menu {
     display: block !important;
+    margin-right: 130px;
   }
 
   .nav-menu ul.show {
@@ -65,7 +68,7 @@
     margin: 10px auto 100px auto;
     width: 90%;
     text-align: center;
-    height: 170px;
+    height: 300px;
   }
 
   .bio-title{
@@ -154,7 +157,7 @@
   }
 
   .project-card {
-    width: 85%;
+    width: 100%;
   }
 
   .mascara {

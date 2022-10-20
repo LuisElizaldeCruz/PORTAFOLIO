@@ -1,8 +1,9 @@
 import React from "react";
 import "../assets/css/About.css"
+/*
 import { DownloadRounded } from "@mui/icons-material";
 import { ColorButton } from "./Form";
-
+*/
 const About = ({ moreDescription }) => {
     return (
         <section className="personal-info" id="personal-info">

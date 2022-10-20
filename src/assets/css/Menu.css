@@ -23,7 +23,9 @@ a>.nav-menu-link:hover {
 }
 
 .nav-menu {
-  position: sticky;
+  /* position: sticky; */
+  position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
   z-index: 100;
@@ -31,13 +33,14 @@ a>.nav-menu-link:hover {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
-  /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); */
+  /* background-color: var(--bg-color); */
+  background-color: transparent;
 }
 
 .nav-menuColor {
   /*cambio de color al hacer scroll*/
-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
+  background-color: white;
   transition: all 0.1s ease-in-out;
 }
 
@@ -46,13 +49,14 @@ a>.nav-menu-link:hover {
 }
 
 .nav-menu a {
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: white;
   transition: var(--transition);
 }
 
 .nav-menuColor h1,
 .nav-menuColor a {
-  color: white;
+  color: var(--primary-color);
 }
 
 .nav-menu a:hover:not(.name-link) {
@@ -83,8 +87,12 @@ a>.nav-menu-link:hover {
   user-select: none;
 }
 
-.nav-menuColor .burger-menu {
+.nav-menu .burger-menu {
   color: white;
+}
+
+.nav-menuColor .burger-menu {
+  color: purple;
 }
 
 .burger-menu:focus {
