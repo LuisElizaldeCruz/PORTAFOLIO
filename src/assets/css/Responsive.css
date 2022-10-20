@@ -53,7 +53,6 @@
   }
 
   .hero {
-    flex-direction: column;
     flex-direction: column-reverse;
     justify-content: space-evenly
   }
@@ -117,17 +116,13 @@
 }
 
 @media screen and (max-width: 480px) {
-
+  
   .bio-title{
     font-size: 2rem;
   }
 
   .bio-text{
     font-size: 1rem;
-  }
-
-  .hero {
-    height: 480px;
   }
 
   .nav-menu {
@@ -152,8 +147,9 @@
   }
 
   .more-about {
-    margin-top: 2rem;
+    margin-top: 0;
     width: 90%;
+    padding-top: 0;
   }
 
   .project-card {
