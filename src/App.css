@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300;400;700&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300;400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 /* CSS Resets */
 * {
@@ -14,9 +16,11 @@ html {
 
 body {
   /* font-family: "Roboto", sans-serif; */
-  font-family: 'Taviraj', serif;
+  /* font-family: 'Taviraj', serif; */
+  /* font-family: 'PT Serif', serif; */
+  font-family: 'Lato', sans-serif;
 }
 
-section:not(.hero){
+section:not(.hero) {
   padding-top: 5rem;
 }
