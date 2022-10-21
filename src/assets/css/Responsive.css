@@ -4,14 +4,14 @@
     padding: 1.5rem 0;
   }
 
-  .nav-menu h1{
+  .nav-menu h1 {
     color: white;
   }
 
-  .nav-menu a:not(.name-link){
+  .nav-menu a:not(.name-link) {
     color: var(--primary-color);
   }
-  
+
   .nav-menu ul {
     position: fixed;
     background-color: var(--bg-color);
@@ -23,7 +23,7 @@
     transition: transform 0.5s ease-in;
   }
 
-  .nav-menuColor ul{
+  .nav-menuColor ul {
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
   }
 
@@ -52,6 +52,7 @@
     transform: translateX(0);
   }
 
+  /*seccion hero*/
   .hero {
     flex-direction: column-reverse;
     justify-content: space-evenly
@@ -63,6 +64,7 @@
     margin: 1px auto;
   }
 
+  /*seccion hero mensaje*/
   .bio {
     margin: 10px auto 100px auto;
     width: 90%;
@@ -70,14 +72,15 @@
     height: 300px;
   }
 
-  .bio-title{
+  .bio-title {
     font-size: 2rem;
   }
 
-  .bio-text{
+  .bio-text {
     font-size: 1.2rem;
   }
 
+  /*seccion acerca de mi*/
   .more-about {
     margin-top: 2rem;
     width: 90%;
@@ -91,37 +94,47 @@
     text-align: justify;
   }
 
+  /*seccion icono de skills*/
   .icon {
     width: 5.875rem;
     height: 5.25rem;
   }
 
-  .contact-form-container {
-    max-width: 23.75rem;
+  /*seccion de proyectos*/
+  .projects {
+    width: 90%;
   }
+
+  .project-card {
+    min-width: 250px;
+    height: 240px;
+    flex: 1;
+  }
+
+  /*seccion paginacion*/
 
   .MuiPagination-root {
     width: 90%;
+  }
+
+  /*seccion formulario*/
+  .contact-form-container {
+    max-width: 23.75rem;
   }
 
   .icons-container {
     width: 150px;
     justify-content: space-between;
   }
-
-  .project-card{
-    flex: none;
-  }
-
 }
 
 @media screen and (max-width: 480px) {
-  
-  .bio-title{
+
+  .bio-title {
     font-size: 2rem;
   }
 
-  .bio-text{
+  .bio-text {
     font-size: 1rem;
   }
 
@@ -152,12 +165,12 @@
     padding-top: 0;
   }
 
-  .project-card {
-    width: 100%;
+  .projects {
+    width: 90%;
   }
 
-  .mascara {
-    transform: translateX(400px);
+  .project-card {
+    width: 100%;
   }
 
   .project-card:hover .mascara {
@@ -181,7 +194,7 @@
     width: 100%;
   }
 
-  section:not(.personal-info, .hero){
+  section:not(.personal-info, .hero) {
     padding-top: 5.5rem;
   }
 }
