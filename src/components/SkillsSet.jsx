@@ -30,7 +30,6 @@ const SkillsSet = () => {
           <label className="skill-name">MATERIAL UI</label>
         </div>
       </div>
-
     </section>
   );
 };
