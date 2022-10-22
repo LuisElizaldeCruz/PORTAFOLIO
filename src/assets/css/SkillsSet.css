@@ -1,0 +1,18 @@
+/* -------------skills--------------- */
+.skills {
+  width: auto;
+  margin: auto;
+  text-align: center;
+  /* margin-top: 4rem; */
+}
+
+.skill-header {
+  margin-bottom: 30px;
+}
+
+.skills-set {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -2,7 +2,7 @@ import "./App.css"
 import Menu from "./components/Menu";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Skills from "./components/Skills";
+import SkillsSet from "./components/SkillsSet";
 import { Footer } from "./components/Footer";
 //import { Form } from "./components/Form";
 import ProjectsGroup from "./components/ProjectsGroup";
@@ -16,7 +16,7 @@ function App() {
         heroDescription={"¡hola! aqui puedes ver alguno de los proyectos que he realizado"}
       />
       <About />
-      <Skills />
+      <SkillsSet />
       <ProjectsGroup />
       {/* <Form /> */}
       <Footer />
