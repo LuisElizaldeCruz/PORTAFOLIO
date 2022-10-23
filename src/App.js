@@ -5,7 +5,7 @@ import About from "./components/About";
 import SkillsSet from "./components/SkillsSet";
 import { Footer } from "./components/Footer";
 //import { Form } from "./components/Form";
-import ProjectsGroup from "./components/ProjectsGroup";
+import ProjectsSet from "./components/ProjectsSet";
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       />
       <About />
       <SkillsSet />
-      <ProjectsGroup />
+      <ProjectsSet />
       {/* <Form /> */}
       <Footer />
     </div>

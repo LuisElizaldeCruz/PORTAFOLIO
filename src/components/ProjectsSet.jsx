@@ -1,20 +1,20 @@
 import { React } from "react";
-import Project from "./Project";
-import "../assets/css/ProjectsGroup.css";
-import { projectSet } from "./ProjectsData.js";
+import Project from "./ProjectCard";
+import "../assets/css/ProjectsSet.css";
+import { projectData } from "./ProjectsData.js";
 
-const ProjectsGroup = () => {
+const ProjectsSet = () => {
     return (
         <>
             <section className="container-projects" id="container-projects">
                 <h4 className="title-projects">Proyectos</h4>
                 <div className="projects" id="projects">
                     {
-                        projectSet.map(p => {
+                        projectData.map(p => {
                             return (
                                 <Project
+                                    key={p.id}
                                     projectTitle={p.title}
-                                    key={p.id.toString()}
                                     img={p.img}
                                     alt={p.alt}
                                     description={p.description}
@@ -29,4 +29,4 @@ const ProjectsGroup = () => {
     );
 }
 
-export default ProjectsGroup;
+export default ProjectsSet;

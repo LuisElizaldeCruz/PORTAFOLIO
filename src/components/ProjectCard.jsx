@@ -1,5 +1,5 @@
 import * as React from 'react';
-import '../assets/css/Projects.css';
+import '../assets/css/ProjectCard.css';
 
 export default function Project({ projectTitle, img, alt, description, link = "#" }) {
   return (
@@ -9,7 +9,7 @@ export default function Project({ projectTitle, img, alt, description, link = "#
         <div className="mascara">
           <h2>{projectTitle}</h2>
           <p className="description-text">{description}</p>
-          <a href={link} className="link">Leer mas</a>
+          <a href={link} className="link">Ver demo</a>
         </div>
       </div>
     </>
