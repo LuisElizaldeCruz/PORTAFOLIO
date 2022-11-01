@@ -40,3 +40,7 @@
     width: auto;
     color: white;
 }
+
+.icon-social-network:hover{
+   color: rgb(97, 96, 96);
+}
