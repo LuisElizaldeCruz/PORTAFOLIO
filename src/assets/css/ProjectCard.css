@@ -31,7 +31,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    background-color: rgba(70, 83, 79, 0.7);
+    background-color: rgba(24, 24, 24, 0.8);
     opacity: 1;
     transform: translateX(900px);
     text-align: center;
@@ -49,6 +49,10 @@
     transition: transform 0.4s ease-in-out;
 }
 
+.project-title{
+    font-size: 1.3rem;
+}
+
 .link {
     display: flex;
     height: 32px;
@@ -63,6 +67,9 @@
 
 .link:hover {
     transform: scale(1.05);
+    border: 1.1px solid purple;
+    background-color: rgb(90, 2, 90);
+    transition: all .2s ease-in-out;
 }
 
 /* 
