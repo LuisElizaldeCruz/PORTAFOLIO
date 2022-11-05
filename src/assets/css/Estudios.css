@@ -1,0 +1,26 @@
+.estudios {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.estudios-titulo {
+  /* width: auto; */
+  /* text-align: center; */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.licenciatura {
+  display: grid;
+  grid-template-columns: .1fr 1fr;
+  align-items: center;
+  max-width: 500px;
+  column-gap: 30px;
+}
+
+.img-escuela {
+  grid-row-start: 1;
+  grid-row-end: -3;
+}
