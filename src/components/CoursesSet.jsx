@@ -6,7 +6,7 @@ import Course from './Course';
 
 export default function Cursos() {
     return (
-        <section className="cursos">
+        <section className="cursos" id="cursos">
             <h4 className="cursos-titulo">Cursos Tomados</h4>
             <div className="cursos-set">
                 {

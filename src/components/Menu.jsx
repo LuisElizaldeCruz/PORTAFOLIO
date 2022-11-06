@@ -32,6 +32,7 @@ const Menu = () => {
         <li><a href="#personal-info" className="nav-link about">Acerca de mi</a></li>
         <li><a href="#skills" className="nav-link skills">Skills</a></li>
         <li><a href="#container-projects" className="nav-link proyectos">Proyectos</a></li>
+        <li><a href="#cursos" className="nav-link cour">Cursos</a></li>
         <li><a href="#footer" className="nav-link contact">Contacto</a></li>
       </ul>
 

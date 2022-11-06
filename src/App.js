@@ -20,9 +20,9 @@ function App() {
       />
       <About />
       <Estudios />
-      <CoursesSet />
       <SkillsSet />
       <ProjectsSet />
+      <CoursesSet />
       {/* <Form /> */}
       <Footer />
     </div>
