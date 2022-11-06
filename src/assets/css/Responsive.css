@@ -113,6 +113,15 @@
     flex: 1;
   }
 
+  /*cursos*/
+  .cursos-set {
+    flex-direction: column;
+  }
+
+  .curso {
+    width: 90%;
+  }
+
   /*seccion paginacion*/
 
   .MuiPagination-root {
@@ -178,6 +187,11 @@
   .project-card:hover .mascara {
     transform: translateX(0);
     transition: all 0.5s ease-in-out;
+  }
+
+  /*cursos*/
+  .curso {
+    width: 95%;
   }
 
   .contact-form-container {

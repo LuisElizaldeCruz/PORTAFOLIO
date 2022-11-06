@@ -7,7 +7,7 @@ import { Footer } from "./components/Footer";
 //import { Form } from "./components/Form";
 import ProjectsSet from "./components/ProjectsSet";
 import Estudios from "./components/Estudios";
-import Cursos from "./components/Cursos";
+import CoursesSet from "./components/CoursesSet";
 
 
 
@@ -20,7 +20,7 @@ function App() {
       />
       <About />
       <Estudios />
-      <Cursos />
+      <CoursesSet />
       <SkillsSet />
       <ProjectsSet />
       {/* <Form /> */}
