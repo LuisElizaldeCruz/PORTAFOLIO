@@ -19,10 +19,10 @@ function App() {
         heroDescription={"¡hola! aqui puedes ver alguno de los proyectos que he realizado"}
       />
       <About />
-      <Estudios />
+      {/* <Estudios /> */}
       <SkillsSet />
       <ProjectsSet />
-      <CoursesSet />
+      {/* <CoursesSet /> */}
       {/* <Form /> */}
       <Footer />
     </div>
