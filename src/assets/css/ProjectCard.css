@@ -31,7 +31,8 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    background-color: rgba(70, 83, 79, 0.7);
+    /* background-color: rgba(70, 83, 79, 0.7); */
+    background-color: rgba(24, 24, 24, 0.8);
     opacity: 1;
     transform: translateX(900px);
     text-align: center;
