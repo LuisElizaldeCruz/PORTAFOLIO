@@ -67,6 +67,8 @@ a>.nav-menu-link:hover {
 .nav-menu ul {
   display: flex;
   /* gap: 1.9rem; */
+  width: 400px;
+  justify-content: space-between;
 }
 
 .nav-menu ul li {
