@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PORTAFOLIO/static/css/main.59ba48ad.css",
+    "main.css": "/PORTAFOLIO/static/css/main.e82b6871.css",
     "main.js": "/PORTAFOLIO/static/js/main.68fed845.js",
     "static/js/787.9dbb52e9.chunk.js": "/PORTAFOLIO/static/js/787.9dbb52e9.chunk.js",
     "static/media/code-world.jpg": "/PORTAFOLIO/static/media/code-world.617ff9ae21de103459b4.jpg",
@@ -18,12 +18,12 @@
     "static/media/icons8-css3.svg": "/PORTAFOLIO/static/media/icons8-css3.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/icons8-html-5.svg": "/PORTAFOLIO/static/media/icons8-html-5.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "static/media/wave.svg": "/PORTAFOLIO/static/media/wave.feccebafec9af8e4bea7ad3de1a7baa6.svg",
-    "main.59ba48ad.css.map": "/PORTAFOLIO/static/css/main.59ba48ad.css.map",
+    "main.e82b6871.css.map": "/PORTAFOLIO/static/css/main.e82b6871.css.map",
     "main.68fed845.js.map": "/PORTAFOLIO/static/js/main.68fed845.js.map",
     "787.9dbb52e9.chunk.js.map": "/PORTAFOLIO/static/js/787.9dbb52e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59ba48ad.css",
+    "static/css/main.e82b6871.css",
     "static/js/main.68fed845.js"
   ]
 }
