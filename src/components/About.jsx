@@ -1,9 +1,8 @@
 import React from "react";
 import "../assets/css/About.css"
-/*
 import { DownloadRounded } from "@mui/icons-material";
 import { ColorButton } from "./Form";
-*/
+
 const About = ({ moreDescription }) => {
     return (
         <section className="personal-info" id="personal-info">
@@ -16,13 +15,13 @@ const About = ({ moreDescription }) => {
                     Durante mi estancia en la universidad utilicé <b>JAVA</b> para la creacion de aplicaciones, lo que me esta ayudando actualmente en comprender el uso del framework <strong>SPRINGBOOT</strong> que actualmente tambien estoy aprendiendo.
                 </p>
             </div>
-            {/* <ColorButton
+            <ColorButton
                 id="btnDownload"
                 variant="contained"
                 endIcon={<DownloadRounded />}
             >
-                <a href="/CV-Luis-Elizalde.pdf" download="CV-Luis-Elizalde.pdf">Descargar CV</a>
-            </ColorButton> */}
+                <a href="/CV-Luis-Elizalde.pdf" download="CV-Luis-Elizalde.pdf">Ver CV</a>
+            </ColorButton>
         </section>
     );
 };

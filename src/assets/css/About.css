@@ -23,11 +23,11 @@
   text-align: justify;
 }
 
-/* #btnDownload {
+#btnDownload {
   margin-top: 30px;
-  width: auto;
+  width: 150px;
 }
 
 #btnDownload a {
   color: white;
-} */
+}
